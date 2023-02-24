@@ -1,7 +1,55 @@
 # Sober
-use_bpm 96
 
+use_bpm 96
+use_synth :beep
+
+#measure 1
 play :e5
-sleep 0.5
+sleep 0.25
 play :fs5
 sleep 0.5
+play :a5
+sleep 0.25
+
+#measure 2
+play :fs5
+sleep 0.25
+play :fs5
+sleep 0.75
+play :e5
+sleep 0.25
+play :fs5
+sleep 0.5
+play :cs5
+sleep 0.25
+play :cs5
+sleep 0.25
+play :b4
+sleep 0.75
+play :b4
+sleep 0.25
+play :a4
+sleep 0.5
+play :cs5
+sleep 0.25
+
+#measure 3
+play :cs5
+sleep 0.25
+play :a4
+sleep 0.25
+play :b4
+sleep 0.5
+play :b4
+sleep 0.5
+play :cs5
+sleep 0.5
+sleep 0.75
+play :e5
+sleep 0.25
+play :e5
+sleep 0.25
+play :fs5
+sleep 0.5
+play :a5
+sleep 0.25
