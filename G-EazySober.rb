@@ -1,14 +1,26 @@
-# Sober
-
+# Sober: G-Eazy ft. Charlie Puth
 x = 0.25
 y = 0.5
 z = 0.75
+s = sober_intro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/G-Eazy_-_Sober_Instrumental2.wav"
+
+define :function do
+  sample :drum_bass_soft, amp: 1
+  sleep 0.45
+  sample :drum_bass_soft, amp: 1
+  sleep 4
+end
 
 use_bpm 96
 use_synth :beep
 
-sober_intro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/G-Eazy_-_Sober_Instrumental2.wav"
-sample sober_intro
+2.times do
+  sample (s)
+end
+
+sample :misc_crow
+sleep 1
+sample :misc_crow
 
 #intro
 sleep 28
@@ -63,5 +75,18 @@ live_loop :Regret_this_when_its_over do
   sleep y
   play :a5
   sleep x
+end
+
+2.times do
+  function
+end
+2.times do
+  sample :drum_bass_soft, amp: 2
+  sleep 0.45
+  sample :drum_bass_soft, amp: 2
+  sleep 4
+end
+2.times do
+  function
 end
 
