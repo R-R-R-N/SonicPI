@@ -17,7 +17,6 @@ define :function do
   sleep 4
 end
 
-
 2.times do
   sample (s)
 end
@@ -91,4 +90,3 @@ end
 2.times do
   function
 end
-
