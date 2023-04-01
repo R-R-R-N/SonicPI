@@ -1,12 +1,23 @@
 # Him and I: G-Eazy
 use_bpm 88
 s = HimAndI_Intro = "C:/Users/Ryan Ramos Noriega/Downloads/G-Eazy and Halsey - Him & I (Official Instrumental).wav"
-ss = HimAndI_Outro = "C:/Users/Ryan Ramos Noriega/Downloads/G-Eazy & Halsey - Him & I (Lyrics).wav"
+ss = HimAndI_Outro = "C:/Users/Ryan Ramos Noriega/Downloads/Him & I - G-Eazy-Halsey - Only Vocals (Isolated Acapella).wav"
+a = 1
 
-sample :ambi_choir, beat_stretch:6
-sample :ambi_choir, beat_stretch:10
+define :function do
+  sample :ambi_choir, beat_stretch:10 , amp: a
+  sleep 1
+end
 
-sleep 10
+2.times do
+  function
+  a = a + 2
+  function
+  a = a - 2
+  function
+end
+
+sleep 3
 sample (s)
 
 sleep 32
