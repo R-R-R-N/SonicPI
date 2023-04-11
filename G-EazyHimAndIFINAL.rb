@@ -1,7 +1,8 @@
 # Him and I: G-Eazy
 use_bpm 88
-s = HimAndI_Intro = "C:/Users/Ryan Ramos Noriega/Downloads/G-Eazy and Halsey - Him & I (Official Instrumental).wav"
-ss = HimAndI_Outro = "C:/Users/Ryan Ramos Noriega/Downloads/Him & I - G-Eazy-Halsey - Only Vocals (Isolated Acapella).wav"
+s = HimAndI_Intro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/Intro2.wav"
+ss = HimAndI_Outro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/Vocals.wav"
+
 a = 1
 
 define :function do
