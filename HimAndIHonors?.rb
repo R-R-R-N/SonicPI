@@ -88,8 +88,11 @@ sample (s)
 
 sleep 32
 live_loop :notes do
-  4.times do
+  3.times do
     music :a3, :e4
+  end
+  1.times do
+    music :a4, :e5
   end
   stop
 end
