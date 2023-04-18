@@ -1,4 +1,4 @@
-# Him and I: G-Eazy
+# Him and I: G-Eazy ft. Halsey
 use_bpm 88
 s = HimAndI_Intro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/Intro2.wav"
 ss = HimAndI_Outro = "C:/Users/Ryan Ramos Noriega/Documents/Audacity/Vocals.wav"
